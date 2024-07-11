@@ -1,5 +1,5 @@
 # MERN-EmployeesProfileDatabase-website
- Employee Management System
+Employee Management System
 Description
 This project is an Employee Management System built using the MERN (MongoDB, Express, React, Node.js) stack. It features functionalities for user authentication, employee data management, and a responsive user interface. The system allows users to log in, view a dashboard, and manage employee information through creating, editing, and deleting records.
 
@@ -109,4 +109,4 @@ License
 This project is licensed under the MIT License.
 
 Contact
-For any questions or feedback, please contact [your-email@example.com].
+For any questions or feedback, please contact [veerugandegudi@gmail.com].
