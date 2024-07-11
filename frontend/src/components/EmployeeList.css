@@ -1,0 +1,93 @@
+.employee-list-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #007bff;
+  padding: 1rem;
+  color: #fff;
+}
+
+.nav-links a {
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background: #f0f2f5;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+}
+
+.employee-table th {
+  background: #007bff;
+  color: #fff;
+}
+
+.employee-table td img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.btn-create {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  background: #28a745;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-create:hover {
+  background: #218838;
+}
+
+.btn-edit {
+  background: #ffc107;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-edit:hover {
+  background: #e0a800;
+}
+
+.btn-delete {
+  background: #dc3545;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background: #c82333;
+}

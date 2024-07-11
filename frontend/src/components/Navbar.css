@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5em;
+  }
+  
+  .navbar-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .navbar-user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-user span {
+    margin-right: 10px;
+  }
+  
+  .navbar-user button {
+    padding: 5px 10px;
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

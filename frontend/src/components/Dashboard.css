@@ -1,0 +1,46 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #007bff;
+  padding: 1rem;
+  color: #fff;
+}
+
+.nav-links a {
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.sidebar {
+  width: 200px;
+  background: #f8f9fa;
+  padding: 1rem;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background: #f0f2f5;
+}
