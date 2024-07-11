@@ -1,112 +1,89 @@
-# MERN-EmployeesProfileDatabase-website
-Employee Management System
-Description
-This project is an Employee Management System built using the MERN (MongoDB, Express, React, Node.js) stack. It features functionalities for user authentication, employee data management, and a responsive user interface. The system allows users to log in, view a dashboard, and manage employee information through creating, editing, and deleting records.
+# MERN Project- Employee Management System
 
-Features
-User Authentication (Login)
-Dashboard with welcome message
-CRUD operations for employee data
-Responsive UI
-Data validation (both frontend and backend)
-State management using local storage for user session
-Technologies Used
-Frontend: React, Axios, React Router DOM
-Backend: Node.js, Express
-Database: MongoDB, Mongoose
-Styling: CSS
-Project Structure
-java
-Copy code
-mern_project/
-├── backend/
-│   ├── config/
-│   │   └── db.js
-│   ├── models/
-│   │   └── User.js
-│   │   └── Employee.js
-│   ├── routes/
-│   │   └── auth.js
-│   │   └── employee.js
-│   ├── .env
-│   ├── index.js
-│   └── package.json
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Login.js
-│   │   │   ├── Dashboard.js
-│   │   │   ├── EmployeeList.js
-│   │   │   ├── CreateEmployee.js
-│   │   │   ├── EditEmployee.js
-│   │   │   ├── Navbar.js
-│   │   │   ├── Sidebar.js
-│   │   │   └── styles/
-│   │   │       └── Login.css
-│   │   │       └── Dashboard.css
-│   │   │       └── EmployeeList.css
-│   │   │       └── CreateEmployee.css
-│   │   │       └── EditEmployee.css
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── package.json
+This project is an Employee Management System built using the MERN stack (MongoDB, Express, React, Node.js). The system allows users to manage employee data through a web interface, including functionalities such as login, viewing employee lists, adding new employees, and editing existing employee details.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [License](#license)
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/Veeru-S/mern_project.git
+    cd mern_project
+    ```
+
+2. **Install backend dependencies:**
+    ```bash
+    cd backend
+    npm install
+    ```
+
+3. **Install frontend dependencies:**
+    ```bash
+    cd ../frontend
+    npm install
+    ```
+
+4. **Set up environment variables:**
+    Create a `.env` file in the `backend` directory and add the following variables:
+    ```
+    MONGO_URI=mongodb://localhost:27017/your_database_name
+    PORT=5000
+    ```
+
+## Usage
+
+1. **Start the backend server:**
+    ```bash
+    cd backend
+    npm run dev
+    ```
+
+2. **Start the frontend server:**
+    ```bash
+    cd ../frontend
+    npm start
+    ```
+
+3. **Open your browser and visit:**
+    ```
+    http://localhost:3000
+    ```
+
+## Features
+
+- **Login Page:** Allows users to log in with their username and password.
+- **Dashboard:** Displays a welcome message and navigation options.
+- **Employee List:** Shows a list of employees with options to add, edit, or delete employees.
+- **Add Employee:** Provides a form to add a new employee.
+- **Edit Employee:** Provides a form to edit existing employee details.
+
+## Project Structure
+employee-management-system
+├── backend
+│ ├── controllers
+│ ├── models
+│ ├── routes
+│ ├── .env
+│ ├── index.js
+│ └── ...
+├── frontend
+│ ├── public
+│ ├── src
+│ │ ├── components
+│ │ ├── App.js
+│ │ └── ...
+│ ├── package.json
+│ └── ...
 └── README.md
-Setup Instructions
-Prerequisites
-Node.js
-MongoDB
-Backend Setup
-Navigate to the backend directory:
-bash
-Copy code
-cd mern_project/backend
-Install dependencies:
-bash
-Copy code
-npm install
-Create a .env file in the backend directory with the following content:
-plaintext
-Copy code
-MONGO_URI=mongodb://localhost:27017/mern_project
-JWT_SECRET=your_jwt_secret
-Start the backend server:
-bash
-Copy code
-npm start
-Frontend Setup
-Navigate to the frontend directory:
-bash
-Copy code
-cd mern_project/frontend
-Install dependencies:
-bash
-Copy code
-npm install
-Start the frontend development server:
-bash
-Copy code
-npm start
-Usage
-Open your browser and navigate to http://localhost:3000.
-You should see the login page. Use the following default credentials to log in:
-Username: admin
-Password: password
-After logging in, you will be redirected to the dashboard where you can view and manage employee data.
-API Endpoints
-Authentication
-POST /api/auth/login - User login
-Employees
-GET /api/employees - Get all employees
-POST /api/employees - Create a new employee
-GET /api/employees/:id - Get employee by ID
-PUT /api/employees/:id - Update employee by ID
-DELETE /api/employees/:id - Delete employee by ID
-Validation
-Server-side validation using Mongoose
-Client-side validation using JavaScript
-License
-This project is licensed under the MIT License.
 
-Contact
-For any questions or feedback, please contact [veerugandegudi@gmail.com].
+
